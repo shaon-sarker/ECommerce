@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo img {
+  padding-top: 45px;
+}
+
+.navbar {
+  background-color: pink;
+}
+
+.menu {
+  padding-top: 30px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: black;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0, 10px, 0, 15px;
+}
+.container {
+  color: #d7cfcf;
+}
+
+.heading {
+  padding-top: 150px;
+}
+.heading h3 {
+  color: #a9765a;
+  font-size: 40px;
+  font-weight: lighter;
+}
+span {
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 8px;
+  font-size: 45px;
+}
+
+.heading h2 {
+  text-transform: uppercase;
+  color: #a9765a;
+  font-size: 45px;
+  font-weight: normal;
+}
+.heading a {
+  background: black;
+  color: white;
+  padding: 10px 15px;
+  line-height: 10px;
+  list-style-type: none;
+}
+
+.heading p {
+  color: black;
+}
+
+.grid .grid-item img {
+  padding-top: 30px;
+}
+
+.product-menu ul {
+  text-align: center;
+}
+
+.product-menu ul li {
+  display: inline;
+  margin-right: 20px;
+  position: relative;
+}
+
+.product-menu ul li a::after {
+  content: "";
+  width: 20px;
+  height: 1px;
+  position: absolute;
+  background-color: #aaaa;
+  right: -20px;
+  top: 50%;
+}
+.product-menu ul li:last-child::after {
+  width: 0px;
+}
+
+.product-menu ul li a {
+  color: black;
+  font-weight: bold;
+  padding: 10px 22px;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.product-top {
+  margin-top: 50px;
+}
+.product-top h1 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.product-top p {
+  color: black;
+  text-transform: lowercase;
+}
+.product-image {
+  position: relative;
+}
+
+.product-button {
+  position: absolute;
+  width: 100%;
+  bottom: -23px;
+  left: 0;
+  display: none;
+}
+
+.product-image:hover .product-button {
+  display: block;
+}
+
+.product-button button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 13px 0px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 22px;
+}
+
+.review i {
+  color: gray;
+}
+.added {
+  color: yellow;
+}
+
+/* end */
+
+.service-bottom h4 {
+  color: black;
+}
+.brand img {
+  padding: 15px 0px;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+.left-row {
+  margin-top: 56px;
+}
+
+.left-row h5 {
+  color: black;
+  text-transform: uppercase;
+}
+.left-row p {
+  color: black;
+}
+/* end */
+
+.news-top {
+  text-align: center;
+  margin-top: 80px;
+}
+.news-top h4 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.news-bottom img {
+  float: left;
+  margin-right: 24px;
+}
+.news-bottom h6 {
+  font-size: 15px;
+  color: black;
+  padding-top: 15px;
+}
+.news-bottom p {
+  color: black;
+}
+.news-bottom a {
+  text-decoration: none;
+}
+
+#news-section {
+  margin-bottom: 125px;
+}
+/* end*/
+
+/*footer section*/
+.subcribe-section {
+  padding: 33px 0px 18px 0px;
+  background: #f7f7f7;
+}
+
+.subcribe-section h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  float: left;
+  padding-top: 7px;
+  text-transform: uppercase;
+}
+#basic-addon2 {
+  font-size: 13px;
+  background: black;
+  color: white;
+  padding: 7px 30px;
+  margin-left: 10px;
+  border: none;
+}
+
+.footer img {
+  margin-top: 22px;
+}
+
+.border-width {
+  border-left: 1px solid black;
+  padding: 0px 70px;
+}
+.border-width h6 {
+  color: black;
+  text-transform: uppercase;
+}
+.border-width p {
+  color: black;
+}
+.border-width {
+  margin-top: 30px;
+}
+.copy {
+  margin-top: 20px;
+}
+.copy h6 {
+  color: black;
+  text-align: center;
+}
+.copy p {
+  color: black;
+  text-align: center;
+}
+.copy ul li {
+  list-style: none;
+  display: inline;
+}
+.copy ul {
+  text-align: center;
+}
